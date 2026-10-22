@@ -17,7 +17,7 @@ name: bili-popular-block
 
 on:
   schedule:
-    # 每小时一次（UTC）。错开夸克那个任务的第 7 分钟，避开 GitHub 整点拥堵
+    # 每小时一次（UTC），第 23 分；避开 GitHub 整点拥堵
     - cron: '23 * * * *'
   workflow_dispatch:
 

@@ -12,5 +12,6 @@ docs/
 # 运行产物
 state/
 *.log
-quark_share_snapshot*
+blacklist.json
+cookie_alert.json
 __pycache__/
